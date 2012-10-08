@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>My Octopress Blog</title>
-	<meta name="author" content="Your Name">
+	<meta name="author" content="Gábor Egyed (1ed)">
 
 	
 	<meta name="description" content=" Blog Archives
@@ -52,6 +52,10 @@
 		
 		
 		
+		<a class="twitter" href="http://twitter.com/1edgbr" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/1ed" title="GitHub">GitHub</a>
 		
 		
 		
@@ -69,6 +73,20 @@
 </header>
 	
 		
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/1edgbr">1edgbr</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('1edgbr', 4, false);
+	})(jQuery);
+</script>
+
 	
 	<div id="content" class="inner">
 
@@ -79,7 +97,7 @@
 </nav></div>
 	<footer id="footer" class="inner">Copyright &copy; 2012
 
-    Your Name
+    Gábor Egyed (1ed)
 
 </footer>
 	<script src="/javascripts/slash.js"></script>
